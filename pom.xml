@@ -136,6 +136,16 @@
         <pmd.version>3.15.0</pmd.version>
         <checkstyle.version>3.1.2</checkstyle.version>
     </properties>
+    
+    <properties>
+  <sonar.organization>trabajometodologias</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
+    
+    <sonar.moduleKey>${project.groupId}:${project.artifactId}</sonar.moduleKey>
+<skipTests>true</skipTests>
+    
+    
 
     <modules>
         <module>webgoat-container</module>
